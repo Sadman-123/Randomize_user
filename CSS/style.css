@@ -1,0 +1,33 @@
+body{
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=e46d13&c2=867d69&gt=l&gd=dtl
+*/
+background: #E46D13;
+background: linear-gradient(135deg, #E46D13, #867D69);
+background-size:cover;
+}
+.btn{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+#id{
+    display: none;
+    width: max-content;
+    text-align: center;
+    background-color: gold;
+    padding: 7px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px gray;
+}
+#id img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+}
